@@ -10,3 +10,15 @@ for (let i = 0; i < arr1.length; i++) {
   }
 }
 console.log(selectedTeas);
+
+//Question 2
+
+let arr2 = ["London", "New York", "Paris", "Berlin"];
+let visitedCities = [];
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i] === "Paris") {
+    continue;
+  }
+  visitedCities.push(arr2[i]);
+}
+console.log(visitedCities);
