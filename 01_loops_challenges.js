@@ -119,7 +119,7 @@ let doubledNumbers = [];
 
 for (let i = 0; i < numbers2.length; i++) {
   const element = numbers2[i];
-  if (element == 7) {
+  if (element === 7) {
     continue;
   }
   doubledNumbers.push(element * 2);
