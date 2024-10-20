@@ -22,3 +22,15 @@ for (let i = 0; i < arr2.length; i++) {
   visitedCities.push(arr2[i]);
 }
 console.log(visitedCities);
+
+// Question 3
+
+let numbers = [1, 2, 3, 4, 5];
+let smallNumber = [];
+for (const element of numbers) {
+  if (element == 4) {
+    break;
+  }
+  smallNumber.push(element);
+}
+console.log(smallNumber);
