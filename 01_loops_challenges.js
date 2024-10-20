@@ -125,3 +125,16 @@ for (let i = 0; i < numbers2.length; i++) {
   doubledNumbers.push(element * 2);
 }
 console.log(doubledNumbers);
+
+// Question 10
+
+let myTeas = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"];
+
+let shortTea = [];
+for (const item of myTeas) {
+  if (item.length > 10) {
+    break;
+  }
+  shortTea.push(item);
+}
+console.log(shortTea);
