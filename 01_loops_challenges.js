@@ -46,3 +46,21 @@ for (const element of chai_arr) {
   preferredTea.push(element);
 }
 console.log(preferredTea);
+
+//Question 5
+
+let cityPopulation = {
+  London: 8900000,
+  "New York": 8400000,
+  Paris: 2200000,
+  Berlin: 3500000,
+};
+let cityNewPopulation = {};
+
+for (const key in cityPopulation) {
+  if (key === "Berlin") {
+    break;
+  }
+  cityNewPopulation[key] = cityPopulation[key];
+}
+console.log(cityNewPopulation);
