@@ -98,3 +98,16 @@ teaCollection.forEach((item) => {
   availableTea.push(item);
 });
 console.log(availableTea);
+
+//Question 8
+
+let worldCities2 = ["Berlin", "Tokyo", "Sydney", "Paris"];
+let travelledCity = [];
+
+worldCities2.forEach((city) => {
+  if (city === "Sydney") {
+    return;
+  }
+  travelledCity.push(city);
+});
+console.log(travelledCity);
