@@ -34,3 +34,15 @@ for (const element of numbers) {
   smallNumber.push(element);
 }
 console.log(smallNumber);
+
+//Question 4
+
+let chai_arr = ["chai", "green tea", "herbal tea", "black tea"];
+let preferredTea = [];
+for (const element of chai_arr) {
+  if (element == "herbal tea") {
+    continue;
+  }
+  preferredTea.push(element);
+}
+console.log(preferredTea);
