@@ -64,3 +64,22 @@ for (const key in cityPopulation) {
   cityNewPopulation[key] = cityPopulation[key];
 }
 console.log(cityNewPopulation);
+
+// Question 6
+
+let worldCities = {
+  Sydney: 5000000,
+  Tokyo: 9000000,
+  Berlin: 3500000,
+  Paris: 2200000,
+};
+
+let largeCities = {};
+
+for (const key in worldCities) {
+  if (worldCities[key] < 3000000) {
+    continue;
+  }
+  largeCities[key] = worldCities[key];
+}
+console.log(largeCities);
