@@ -83,3 +83,18 @@ for (const key in worldCities) {
   largeCities[key] = worldCities[key];
 }
 console.log(largeCities);
+
+// Question 7
+
+let teaCollection = ["earl grey", "green tea", "chai", "oolong tea"];
+let availableTea = [];
+let stopItr = false;
+teaCollection.forEach((item) => {
+  if (stopItr == true) return;
+  if (item === "chai") {
+    stopItr = true;
+    return;
+  }
+  availableTea.push(item);
+});
+console.log(availableTea);
